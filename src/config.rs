@@ -21,7 +21,7 @@ use {
         ClientConfig,
     },
     serde::Deserialize,
-    solana_geyser_plugin_interface::geyser_plugin_interface::{
+    agave_geyser_plugin_interface::geyser_plugin_interface::{
         GeyserPluginError, Result as PluginResult,
     },
     std::{collections::HashMap, fs::File, io::Result as IoResult, net::SocketAddr, path::Path},
