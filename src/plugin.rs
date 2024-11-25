@@ -137,7 +137,7 @@ impl GeyserPlugin for KafkaPlugin {
         &self,
         slot: u64,
         parent: Option<u64>,
-        status: PluginSlotStatus,
+        status: &PluginSlotStatus,
     ) -> PluginResult<()> {
         let publisher = self.unwrap_publisher();
         for filter in self.unwrap_filters() {

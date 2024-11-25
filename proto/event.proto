@@ -56,6 +56,18 @@ enum SlotStatus {
 
   // The highest slot that has been voted on by supermajority of the cluster, ie. is confirmed.
   Confirmed = 2;
+  
+  /// First Shred Received
+  FirstShredReceived = 3;
+
+  /// All shreds for the slot have been received.
+  Completed = 4;
+
+  /// A new bank fork is created with the slot
+  CreatedBank = 5;
+
+  /// A slot is marked dead
+  Dead = 6;
 }
 
 // MessageHeader
