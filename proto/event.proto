@@ -105,7 +105,7 @@ message V0Message {
 
 message V0LoadedMessage {
   V0Message message_ = 1;
-  LoadedAddresses loaded_adresses = 2;
+  LoadedAddresses loaded_addresses = 2;
   repeated bool is_writable_account_cache = 3;
 }
 
