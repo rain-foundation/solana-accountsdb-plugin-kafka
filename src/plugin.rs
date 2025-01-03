@@ -440,7 +440,7 @@ impl KafkaPlugin {
                                         })
                                         .collect(),
                                 }),
-                                loaded_adresses: Some(LoadedAddresses {
+                                loaded_addresses: Some(LoadedAddresses {
                                     writable: v0
                                         .loaded_addresses
                                         .writable
